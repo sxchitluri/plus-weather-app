@@ -16,7 +16,7 @@ function formatDate(date) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[dayIndex];
   return `${day} ${hours}:${minutes}`;
@@ -88,30 +88,3 @@ function tempUnitC(event) {
 }
 let tempTypeC = document.querySelector("#celsius-link");
 tempTypeC.addEventListener("click", tempUnitC);
-
-/*
-// adding API
-function displayName(response) {
-  console.log(response.data.username);
-  let hasdfg = documetn.querySelector();
-  afasdf.innerHTML = "";
-}
-
-
-
-axios.get(apiUrl).then(displayName);
-
-// weather api
-let apikey = "855cb9e221f20919b83b702e5cef27e2"; // openweather api key
-
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=NewYork&appid=${apikey}&units=metric`;
-
-function showTemperature(response) {
-  console.log(response.data);
-
-  let tempElement = document.querySelector(".temperature2");
-  tempElement.innerHTML = response.data.main.temp;
-}
-
-axios.get(apiUrl).then(function (showTemperature);
-*/

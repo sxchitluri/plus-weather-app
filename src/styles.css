@@ -21,3 +21,8 @@ body {
 .days {
   list-style: none;
 }
+
+.btn-group {
+  padding-inline: 5px;
+  border-radius: 6px;
+}
