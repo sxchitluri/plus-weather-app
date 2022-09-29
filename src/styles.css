@@ -90,3 +90,27 @@ a {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weekly {
+  margin-top: 75px;
+}
+
+.days {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#weekly-header {
+  vertical-align: middle;
+  text-align: left;
+}
+
+#radar-day {
+  height: 400px;
+  width: 500px;
+}
+
+#radar-day img {
+  height: fit-content;
+  width: 500;
+}
