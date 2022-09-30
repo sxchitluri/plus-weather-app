@@ -103,6 +103,8 @@ a {
 
 #weather-week {
   margin-top: 75px;
+  /* inline-size: 900px;
+  width: max-content; */
 }
 
 .weather-forecast {
